@@ -15,7 +15,7 @@ Channel owner can change voice name, voice user limit, restrict connect permissi
 5. Set up config.json
 6. `npm start` or `yarn start`
 
-# Setting up a `config.json`
+## Setting up a `config.json`
 | Configuration       | Type          | Description                                                                                      |
 | ------------------- | ------------- | ------------------------------------------------------------------------------------------------ |
 | Token               | String        | Your bot's access token                                                                          |
@@ -28,7 +28,7 @@ Channel owner can change voice name, voice user limit, restrict connect permissi
 | Aliases             | Object        | Command aliases                                                                                  |
 | DeleteDelay         | Number        | Message deliting delay(set up 0 for no deliting)                                                 |
 
-# `config.json` exapmle: 
+## `config.json` exapmle: 
 ```json
 {
     "token": "5hJZ4sJiBkhQ90JP3YlUkjDs2C5OsO4X6uQs5AQcaB4CsxKryZUvCidM5ZG",
@@ -48,7 +48,7 @@ Channel owner can change voice name, voice user limit, restrict connect permissi
 }
 ```
 
-# Notes 
+### Notes 
 1. For changing commands names just rename files in commands folder
 2. For changing commands reply text, open any command file and you will see all what you need to change :)
 3. For all questions or supporting, you can add me in discord by tag(ᴏʟᴇɢ#1337) or join in my [discord server](https://discord.gg/Nqa8EJp) and find me

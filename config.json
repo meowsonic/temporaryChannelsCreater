@@ -1,9 +1,9 @@
 {
-    "token": "NjI3NDgwNTM5Njk5NjA5NjE1.XY9Qyg.mpJF1KatrSBCYOG3Koa5iNu4jSM",
-    "prefix": "!",
-    "guildId": "247431068775481346",
-    "createRoomId": "789139197335175218",
-    "createdRoomCategory": "789139154406604851",
+    "token": "",
+    "prefix": "",
+    "guildId": "",
+    "createRoomId": "",
+    "createdRoomCategory": "",
     "roomUserLimit": 0,
     "roomPermissions": ["MANAGE_CHANNELS"],
     "aliases": {
