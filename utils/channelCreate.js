@@ -1,0 +1,1 @@
+module.exports = (guild, name, options) => guild.channels.create(name, options)

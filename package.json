@@ -1,0 +1,14 @@
+{
+  "name": "room-creater",
+  "version": "1.0.0",
+  "description": "полностью русский бот для русских людей",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DS",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
