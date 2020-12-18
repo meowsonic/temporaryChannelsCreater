@@ -15,7 +15,7 @@ module.exports = {
         if (!voiceChannel) return
 
         const selectedUser = mentions.members.first() || guild.members.cache.get(args[0])
-        if (!selectedUser) return
+        if (!selectedUser || selectedUser.id === member.id) return
 
         if (!voiceChannel.permissionsFor(member).has('MANAGE_CHANNELS')) return sendMessage(member, { color: '#ff0000', desc: "Missing permissions!" })
 
