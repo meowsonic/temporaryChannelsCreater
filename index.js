@@ -3,7 +3,7 @@ const fs = require('fs')
 const bot = new Client()
 
 // Configuration
-const { token, createRoomId, guildId, createdRoomCagetory, prefix, roomPermissions } = require('./config.json')
+const { token, createRoomId, guildId, createdRoomCategory, prefix, roomPermissions } = require('./config.json')
 
 // Utils
 const createChannel = require('./utils/channelCreate')
@@ -70,10 +70,10 @@ bot
                     allow: roomPermissions || ['VIEW_CHANNEL', 'MANAGE_CHANNELS'],
                 }
             ],
-            parent: createdRoomCagetory || newVoiceChannel.parentID
+            parent: createdRoomCategory || newVoiceChannel.parentID
         })
             .then(ch => newMember.setChannel(ch))
 
-        if (oldVoiceChannel.parentID === createdRoomCagetory && oldVoiceChannel.id !== createRoomId && oldVoiceChannel.members.size < 1) return oldVoiceChannel.delete()
+        if (oldVoiceChannel.parentID === createdRoomCategory && oldVoiceChannel.id !== createRoomId && oldVoiceChannel.members.size <= 0) return oldVoiceChannel.delete()
     })
     .login(token)
